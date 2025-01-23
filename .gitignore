@@ -1,0 +1,7 @@
+/.idea/
+/venv/
+*.pyc
+__pycache__/
+/images/
+test/.pytest_cache/
+test/app_settings.json

@@ -1,0 +1,14 @@
+{
+    "db_settings": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "postgres",
+        "pwd": "postgres",
+        "db_name": "tron_wallet"
+
+    },
+    "uvicorn_settings": {
+        "host": "127.0.0.1",
+        "port": 8882
+    }
+}
