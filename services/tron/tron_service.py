@@ -32,7 +32,7 @@ class TronAccountService:
             return {'error': f'{e}'}
 
 
-def get_tron_client():
+def get_tron_client() -> TronAccountService:
     client = Tron()
     service_tron = TronAccountService(client)
     return service_tron
